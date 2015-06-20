@@ -2,7 +2,7 @@
 
 ## Input Data
 
-The data is loaded from the original UCI dataset ZIP and is assumed to be in the `./UCI HAR Dataset/` folder. See the [README.md](README.md) for further details on this.
+The data is loaded from the original UCI dataset ZIP and is assumed to be in the `./UCI HAR Dataset/` folder. See the [README.md](README.md) for further details on this and the requirements for processing.
 
 ## Variables and Output Data
 
