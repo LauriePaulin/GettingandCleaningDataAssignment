@@ -1,5 +1,4 @@
-# Getting and Cleaning Data
-# Course Assignment
+## Getting and Cleaning Data Course Assignment
 
 This is a repository for the course project of the Coursera online course `Getting and Cleaning Data` (Johns Hopkins University).
 
