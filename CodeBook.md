@@ -42,9 +42,9 @@ For a fuller description of each, please see the information and discussion in `
 
 The script, `run_analysis.R`, does the following,
 
-* Loads the various files which make-up the UCI dataset.
-* Merges the three `test` and three `train` files into a single data table.
-* Creates a smaller dataset containing only the `mean` and `std` measurements for the observations.
-* Sets descriptive labels for the measurements as contained in `./UCI HAR Dataset/activity_labels.txt`.
-* Computes the `mean` of each measurement in the second tidy dataset, grouping by subject/activity.
-* Saves this tidy dataset to `./FinalData.txt`
+* **Loads** the various files which make-up the UCI dataset.
+* **Merges** the three `test` and three `train` files into a single data table.
+* **Creates** a smaller dataset containing only the `mean` and `std` measurements for the observations.
+* **Sets** descriptive labels for the measurements as contained in `./UCI HAR Dataset/activity_labels.txt`.
+* **Computes** the `mean` of each measurement in the second tidy dataset, grouping by subject/activity.
+* **Saves** this tidy dataset to `./FinalData.txt`.
