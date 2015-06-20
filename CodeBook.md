@@ -36,7 +36,9 @@ This same pattern was applied to these main types:
 * fBodyBodyGyroMag
 * fBodyBodyGyroJerkMag.
 
-For a fuller description of each, please see the information and discussion in `./UCI HAR Dataset/features_info.txt`. 
+For each type, the **units** measured are triaxial vectors, that is X, Y and Z coordinates.
+
+For a fuller description of each of these and further information on how the units were derived for each measurement, please see the information and discussion in `./UCI HAR Dataset/features_info.txt`. 
 
 ## Transformations
 
