@@ -1,17 +1,10 @@
----
-title: "CodeBook"
-author: "Laurie Paulin"
-date: "20 June 2015"
-output: html_document
----
-
 # CodeBook
 
-# Input Data
+## Input Data
 
 The data is loaded from the original UCI dataset ZIP and is assumed to be in the `./UCI HAR Dataset/` folder. See the [README.md](README.md) for further details on this.
 
-# Variables and Output Data
+## Variables and Output Data
 
 For each observation in the dataset, each measurement that contains either _mean_ or _std_ in the feature name was extracted and its average calculated.  There is an `x`, `y` and `z` value for each of the main measurement types.
 
@@ -45,7 +38,7 @@ This same pattern was applied to these main types:
 
 For a fuller description of each, please see the information and discussion in `./UCI HAR Dataset/features_info.txt`. 
 
-# Transformations
+## Transformations
 
 The script, `run_analysis.R`, does the following,
 
