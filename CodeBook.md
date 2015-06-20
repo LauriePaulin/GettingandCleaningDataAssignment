@@ -2,7 +2,7 @@
 
 ## Input Data
 
-The data is loaded from the original UCI dataset ZIP and is assumed to be in the `./UCI HAR Dataset/` folder. See the [README.md](README.md) for further details on this and the requirements for processing.
+The data is loaded from the original UCI dataset ZIP and is assumed to be in the `./UCI HAR Dataset/` sub-folder of the main working folder. See the [README.md](README.md) for further details on this and the requirements for processing.
 
 ## Variables and Output Data
 
@@ -36,7 +36,7 @@ This same pattern was applied to these main types:
 * fBodyBodyGyroMag
 * fBodyBodyGyroJerkMag.
 
-For each type, the **units** measured are triaxial vectors, that is X, Y and Z coordinates.
+For each type, the **units** measured are triaxial vectors, that is X, Y and Z coordinates.  Each variable contains one of the coordinates.
 
 For a fuller description of each of these and further information on how the units were derived for each measurement, please see the information and discussion in `./UCI HAR Dataset/features_info.txt`. 
 
