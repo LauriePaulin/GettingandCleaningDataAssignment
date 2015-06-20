@@ -2,7 +2,7 @@
 
 This is a repository for the course project of the Coursera online course `Getting and Cleaning Data` (Johns Hopkins University).
 
-The R code is for creating a new tidy data set with the average of selected variables for each activity by subject from the raw data.
+The R code is for creating a tidy data set with the average of selected variables for each activity by subject from the raw data.
 
 There is one self contained script named `run_analysis.R`.  It:
 
@@ -12,4 +12,4 @@ There is one self contained script named `run_analysis.R`.  It:
 * **Transforms** the data and outputs variables as described in the [CodeBook.md](CodeBook.md)
 * **Outputs** a tidy dataset to '`./FinalData.txt`'
 
-For Reproducible Research purposes, the expected output is in [FinalData.txt](FinalData.txt)
+For Reproducible Research purposes, the expected output is in [FinalData.txt](FinalData.txt).
