@@ -3,7 +3,7 @@
 setwd("D:/R Projects/Coursera/CleaningDataProject")
 
 #----------------Preliminary step - Read in all work files to dataframes
-#----------------Data files are in the UCI HAR Dataset folder in same sub folders as the downloaded zip file
+#----------------Data files are expected to be in the UCI HAR Dataset folder in the same sub folders as the downloaded zip file
 
 train.x<-read.table("./UCI HAR Dataset/train/X_train.txt")
 test.x<-read.table("./UCI HAR Dataset/test/X_test.txt")
